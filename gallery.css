@@ -1,0 +1,296 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'cwTeXFangSong', serif;
+}
+
+body{
+background: linear-gradient(180deg, rgba(203, 218, 221, 0.52) 0%, rgba(204, 212, 209, 0.26) 50%, rgba(255, 255, 255, 0.00) 100%);
+
+    
+     
+}
+
+
+
+
+.station{
+    display: flex;
+    justify-content: space-between;
+}
+
+.station a{
+    width: 180px;
+    line-height: 2;
+    background-color: #7DC7E0;
+    color: #FFF;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    
+}
+
+
+
+.wrapper{
+    margin:0 auto ;
+    /* border: 1px solid #ff0000;; */
+    width: 100%;
+    height: 100%;
+   padding: 0 30px;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px; */
+    /* position: fixed; */
+    z-index: 1000;
+    /* width: 100%; */
+    margin: 20px auto;
+
+}
+
+header .logo img {
+    height: 100px;
+    width: 100px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    background: rgba(255, 255, 255, 0.65);
+    width: 480px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    float: right;
+
+    border-radius: 10px;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #7DC7E0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer{
+    display: flex;
+    width: 100%;
+    line-height: 2;
+    justify-content: center;
+    align-items: center;
+    background: #7DC7E0;    
+    color: #fff;
+    font-size: 20px;
+}
+
+.footer i{
+    margin-right: 5px;
+}
+
+.footer .hover{
+    display: none;
+}
+
+.footer:hover .hover{
+    display: block;
+}
+
+.footer:hover .taiza{
+    display: none;
+}
+
+
+.Main{
+    margin: 0 auto;
+    width: 1000px;
+    /* height: 1000px; */
+    /* border: 1px solid #000; */
+}
+
+.Main h1{
+    overflow: hidden;
+    color: #7DC7E0;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 1000;
+    line-height: .9;
+    /* margin-left: 100px; */
+    
+}
+
+.Main h2{
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 1000;
+    line-height: 1;
+   
+}
+
+
+
+
+
+
+/* 你可能也喜歡 標題 */
+.YouMightLike {
+    /* border: 1px solid #000; */
+    width: 1000px;
+    margin: 25px auto;
+    margin-bottom: 15px;
+}
+
+
+/* 你可能也喜歡動態 */
+.swiper {
+    width: 100%;
+    height: 80%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 1;
+    margin-right: 0 auto;
+    padding-top: 20px;
+
+  }
+
+  /* 你可能也喜歡圖卡 hover */
+  .swiper-slide:hover{
+    /* background-color: #FFC423; */
+  }
+
+  .swiper-slide img {
+    display: flex;
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    
+  }
+
+
+  /* 往右滑動按鍵 */
+  .swiper-button-next i {
+    background-color: #7DC7E0;
+    height: 35px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 800px;
+    margin-right: 10px;
+    color: #ffffff;
+}
+
+.swiper-outer{
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.swiper-outer .swiper-button-next.next-button{
+    right: -40px;
+}
+
+
+.swiper-outer .swiper-button-prev.prev-button{
+    left:-40px;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    content: 'next';
+    display: none;
+}
+
+.fa-chevron-right:before {
+    content: "\f054";
+    width: 37px;
+    text-align: center;
+}
+
+
+
+
+
+/* 往左滑動按鍵 */
+  .swiper-button-prev i{
+    background-color: #7DC7E0;
+    height: 35px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 800px;
+    margin-right: 10px;
+    color: #ffffff;
+  }
+
+
+  .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    content: 'prev';
+    display: none;
+  }
+
+  .fa-angle-left:before {
+    content: "\f054";
+    width: 37px;
+    text-align: center;
+}
+
+
+
+
+
+.left{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 430px;
+    width: 310px;
+    padding: 10px;
+    padding-bottom: 40px;
+}
+
+.left img{
+    margin-bottom: 15px;
+}
+
+.left h3{
+    
+    font-family: 'cwTeXFangSong', serif;
+    font-size: 16px;
+}
+
+
+
+
+
+

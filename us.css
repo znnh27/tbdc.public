@@ -1,0 +1,253 @@
+@import url(../TBDC/css/reset.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'cwTeXFangSong', serif;
+}
+
+body{
+background: linear-gradient(180deg, rgba(203, 218, 221, 0.52) 0%, rgba(204, 212, 209, 0.26) 50%, rgba(255, 255, 255, 0.00) 100%);
+
+    
+     
+}
+
+
+
+.station{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'cwTeXFangSong', serif;
+}
+
+.station a{
+    width: 180px;
+    line-height: 2;
+    background-color: #7DC7E0;
+    color: #FFF;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    
+}
+
+
+
+.wrapper{
+    margin:0 auto ;
+    /* border: 1px solid #ff0000;; */
+    width: 100%;
+    height: 100%;
+   padding: 0 30px;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px; */
+    /* position: fixed; */
+    z-index: 1000;
+    /* width: 100%; */
+    margin: 20px auto;
+    font-family:  'cwTeXFangSong', serif;
+    ;
+
+}
+
+header .logo img {
+    height: 100px;
+    width: 100px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    background: rgba(255, 255, 255, 0.65);
+    width: 480px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    float: right;
+
+    border-radius: 10px;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #7DC7E0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer{
+    display: flex;
+    width: 100%;
+    line-height: 2;
+    justify-content: center;
+    align-items: center;
+    background: #7DC7E0;    
+    color: #fff;
+    font-size: 20px;
+    font-family: 'cwTeXFangSong', serif;
+}
+
+.footer i{
+    margin-right: 5px;
+}
+
+
+.footer .hover{
+    display: none;
+}
+
+.footer:hover .hover{
+    display: block;
+}
+
+.footer:hover .taiza{
+    display: none;
+}
+
+
+
+
+.Main{
+    margin: 0 auto;
+    width: 1000px;
+    /* height: 1000px; */
+    /* border: 1px solid #000; */
+}
+
+.Main h1{
+    overflow: hidden;
+    color: #7DC7E0;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 1000;
+    line-height: .9;
+    /* margin-left: 100px; */
+    font-family: 'cwTeXFangSong', serif;
+
+    
+}
+
+.Main h2{
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 1000;
+    line-height: 1;
+    font-family: 'cwTeXFangSong', serif;
+}
+
+
+
+
+
+/* card */
+.card{
+    margin: 50px auto;
+    padding: 0;
+    margin-bottom: 120px;
+   
+ 
+ }
+ 
+
+/* 圖卡文字 */
+.card ul{
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: grid;
+    grid-template-rows: auto;
+    gap: 20px 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+    margin-right: 160px;
+    margin-left: 160px;
+    /* border: 1px solid #000; */
+    
+}
+
+.card ul li{
+    
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.40);
+    box-shadow: -3px -3px 21px 0px rgba(0, 0, 0, 0.25) inset;
+    display: flex;
+    width: 410px;
+    height: 270px;
+    padding: 20px 29px 21px 29px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.card .img4_1{
+    width: 410px;
+    height: 580px;
+}
+
+.card .img4_2{
+    width: 410px;
+    height: 580px;
+}
+
+
+/* 圖卡照片 */
+.card ul li img{
+    width: 350px;
+    height: 220px;
+    flex-shrink: 0;
+    display: flex;
+    object-fit: cover;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.card .img1_1 img{
+    object-position: 0px -95px;
+}
+
+.card .img1_2 img{
+    object-position: 0px -275px;
+}
+
+
+.card .img4_1 img{
+    object-position: 0px 0px;
+    width: 350px;
+    height: 530px;
+
+}
+
+.card .img4_2 img{
+    object-position: 0px 0px;
+    width: 350px;
+    height: 530px;
+}
+
+.card .img5_2 img{
+    object-position: 0px -210px;
+}
+

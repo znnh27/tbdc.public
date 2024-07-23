@@ -1,0 +1,134 @@
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive, sans-serif, STHeiti;
+}
+
+body{
+     background: url('bgi2.JPG') no-repeat center center/cover;
+     /* background-position: bottom -230px right -20px;
+     background-size: 135%; */
+     
+}
+
+.wrapper{
+    margin:0 50px ;
+    /* border: 1px solid #ff0000;; */
+   
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    z-index: 1000;
+    width: 95.5%; 
+}
+
+header .logo img {
+    height: 100px;
+    width: 100px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    background: rgba(255, 255, 255, 0.65);
+    width: 480px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    float: right;
+
+    border-radius: 10px;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #7DC7E0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hero {
+    position: relative;
+    height: 100vh;
+    /* background: url('bgi.JPEG') no-repeat center center/cover; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.hero-text {
+    text-align: center;
+    color: #7DC7E0;
+}
+
+.hero-text .h1up {
+    font-size: 120px;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 90px;
+    left: 100px;
+    font-weight: 1000;
+}
+
+.hero-text .h1down {
+    font-size: 120px;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 235px;
+    left: 530px;
+    font-weight: 1000;
+}
+
+.hero-text p {
+    font-size: 34px;
+    margin-bottom: 40px;
+    position: absolute;
+    top: 465px;
+    left: 550px;
+    color: #fff;
+    line-height: 1.3;
+    text-align: left;
+    font-weight: bolder;
+}
+
+.hero-text .btn {
+    padding: 15px 30px;
+    background: #17C5FF;
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    line-height: .8;
+    font-weight: 1000;
+    border-radius: 10px;
+    transition: background 0.3s ease;
+    position: absolute;
+    top: 650px;
+    right: 10px;
+ 
+}
+
+.hero-text i{
+    margin-right: 15px;
+}
+
+
+.hero-text .btn:hover {
+    background: #7DC7E0;
+}
