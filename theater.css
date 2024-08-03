@@ -93,6 +93,22 @@ header nav ul li a {
     line-height: normal;
 }
 
+
+header nav ul .thisstation a{
+    width: 180px;
+    line-height: 2;
+    background-color: #7DC7E0;
+    color: #FFF;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .footer{
     display: flex;
     width: 100%;
