@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'cwTeXFangSong', serif;
+    font-size: 16px;
 }
 
 body{
@@ -15,11 +16,9 @@ background: linear-gradient(180deg, rgba(203, 218, 221, 0.52) 0%, rgba(204, 212,
 }
 
 
-
 .station{
     display: flex;
     justify-content: space-between;
-    font-family: 'cwTeXFangSong', serif;
 }
 
 .station a{
@@ -56,8 +55,6 @@ header {
     z-index: 1000;
     /* width: 100%; */
     margin: 20px auto;
-    font-family:  'cwTeXFangSong', serif;
-    ;
 
 }
 
@@ -92,6 +89,7 @@ header nav ul li a {
     font-weight: 400;
     line-height: normal;
 }
+
 
 header nav ul .thisstation a{
     width: 180px;
